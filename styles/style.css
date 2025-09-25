@@ -1,0 +1,46 @@
+.blog-post-card {
+  background-color: rgb(197, 197, 197); 
+  border-radius: 12px; 
+  width: 300px; 
+  text-align: center; 
+  padding: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+.post-img {
+  width: 100%; 
+  border-bottom: 2px solid #ccc; 
+}
+
+.post-content {
+  padding: 16px; 
+}
+
+.post-title {
+  color: #333; 
+  margin: 12px 0;
+  font-size: 1.5rem; 
+}
+
+.post-excerpt {
+  color: #555; 
+  margin: 12px 0; 
+  font-size: 1rem; 
+}
+
+.read-more {
+  display: inline-block;
+  color: white; 
+  background-color: #0077cc; 
+  padding: 10px 20px; 
+  margin: 12px 0; 
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* Efeito hover */
+.read-more:hover {
+  background-color: #005fa3; 
+}
